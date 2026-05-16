@@ -1,5 +1,5 @@
 import React from 'react';
-import { Lead } from '../types';
+import type { Lead } from '../types';
 import { format } from 'date-fns';
 import { Edit2, Trash2, FileX, Loader2 } from 'lucide-react';
 import clsx from 'clsx';

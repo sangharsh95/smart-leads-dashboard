@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useForm as useRHForm } from 'react-hook-form';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { Lead } from '../types';
+import type { Lead } from '../types';
 import { X } from 'lucide-react';
 
 const leadSchema = z.object({

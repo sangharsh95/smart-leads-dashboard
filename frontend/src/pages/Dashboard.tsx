@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useAuth } from '../context/AuthContext';
 import api from '../api/axios';
-import { Lead, PaginatedLeads } from '../types';
+import type { Lead, PaginatedLeads } from '../types';
 import Sidebar from '../components/Sidebar';
 import LeadModal from '../components/LeadModal';
 import LeadTable from '../components/LeadTable';
